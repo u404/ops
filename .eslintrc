@@ -1,0 +1,3 @@
+{
+  "extends": "./packages/@sc/eslint-config-ops/index.js"
+}

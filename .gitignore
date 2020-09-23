@@ -1,0 +1,8 @@
+.DS_Store
+.idea
+.vscode
+*.lerna_backup
+*.log
+*.stats
+node_modules
+package-lock.json

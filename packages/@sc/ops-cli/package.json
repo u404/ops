@@ -1,0 +1,14 @@
+{
+  "name": "@sc/ops-cli",
+  "version": "1.1.23",
+  "description": "Ops cli tools",
+  "main": "index.js",
+  "bin": {
+    "ops": "bin/ops.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "egg-bin": "^4.9.0",
+    "egg-scripts": "^2.11.0"
+  }
+}

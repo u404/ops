@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "lint": "eslint . --fix",
+    "publish": "node ./scripts/publish.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "@sc/eslint-config-ops": "latest",
+    "lerna": "^3.6.0"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@t-gitlab.smartcinema.com.cn:node/ops.git"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "shelljs": "^0.8.3"
+  }
+}

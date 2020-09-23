@@ -1,0 +1,28 @@
+{
+  "name": "@sc/ops-egg-view",
+  "version": "1.1.23",
+  "description": "ops base view plugin for eggjs",
+  "eggPlugin": {
+    "name": "nunjucks",
+    "dependencies": [
+      "security",
+      "view"
+    ]
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "maintainers": [
+    {
+      "name": "chenmengxi",
+      "email": "chenmengxi@smartcinema.com.cn"
+    }
+  ],
+  "publishConfig": {
+    "registry": "http://registry.smartcinema.com.cn"
+  },
+  "dependencies": {
+    "normalizeurl": "^1.0.0",
+    "nunjucks": "^3.1.6"
+  }
+}
